@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pacifico&family=Roboto&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo.png" alt="" width="225" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link contact btn btn-outline-light fw-semibold px-4 mx-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-6 mt-5 pt-5 text-center">
+            <img src="images/header-ebook.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 text-center mt-5 p-4 text-container">
+            <h1 class="display-1 fw-bold white">Welcome to BLOG Bee</h1>
+            <p class="fw-semibold white">
+              Welcome to our blogging haven, Where words ignite and thoughts are
+              given. Explore, engage, and let your mind soar, Join our
+              community, we have so much more!
+            </p>
+
+            <form action="/" method="post">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control form-control-lg rounded-5"
+                  name="@email"
+                  id="mail"
+                  placeholder="Email-Adress"
+                />
+                <a href="#" class="btn btn-dark btn-lg d-grid mt-2 rounded-5"
+                  >Free download</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #f3f6f9;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+      </svg>
+    </header>
+
+    <div class="container px-4" id="hanging-icons">
+      <div class="row g-4 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              class="bi"
+              width="1em"
+              height="1.5em"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 15"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Discover New Content</h3>
+            <p>
+              Discover the key to unleashing your true blogging potential. Our
+              ebook provides expert guidance on creating compelling content.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              class="bi"
+              width="1em"
+              height="1.5em"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-rocket-takeoff"
+              viewBox="0 0 16 14"
+            >
+              <path
+                d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"
+              />
+              <path
+                d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"
+              />
+              <path
+                d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">
+              Skyrocket Your Blog's Success
+            </h3>
+            <p>
+              Take your blog to new heights with our proven strategies for
+              driving traffic and increasing your blog's visibility.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              class="bi"
+              width="1em"
+              height="1.5em"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-currency-dollar"
+              viewBox="0 0 14 15"
+            >
+              <path
+                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Monetize Your Blog</h3>
+            <p>
+              Turn your passion for blogging into a profitable venture. Our
+              ebook reveals tried-and-tested monetization strategies
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgwhite">
+      <section id="details" class="details my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div
+                class="text-container d-flex flex-column justify-content-center h-100"
+              >
+                <h2 class="display-6">Unlock Your Blogging Potential</h2>
+                <p>
+                  Are you ready to unleash your true blogging potential? Our
+                  ebook, "Blog Mastery," provides you with the tools and
+                  knowledge to take your blog to the next level.
+                </p>
+                <ul class="list-group list-group-flush lh-lg">
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Unleash Your Creativity:</strong> Our ebook empowers
+                    you to unleash your creativity and express your unique voice
+                    through your blog.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Maximize Your Reach:</strong> Learn how to optimize
+                    your blog for search engines.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-square text-primary"></i>
+                    <strong>Monetization Strategies:</strong> Discover various
+                    monetization strategies, such as sponsored content &
+                    affiliate marketing.
+                  </li>
+                </ul>
+                <a
+                  class="btn btn-primary text-white mt-4 align-self-start"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal1"
+                  >Get Your Copy Now</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="image-container p-5">
+                <img src="images/description.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal 1 -->
+      <div id="modal1" class="modal fade">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image-container">
+                  <img src="images/description.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="text-container">
+                  <h2 class="display-6">Unlock Your Blogging Potential</h2>
+                  <p>
+                    Are you ready to unleash your true blogging potential? Our
+                    ebook, "Blog Mastery," provides you with the tools and
+                    knowledge to take your blog to the next level.
+                  </p>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Unleash Your Creativity:</strong> Our ebook
+                      empowers you to unleash your creativity and express your
+                      unique voice through your blog.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Maximize Your Reach:</strong> Learn how to
+                      optimize your blog for search engines.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Monetization Strategies:</strong> Discover various
+                      monetization strategies, such as sponsored content &
+                      affiliate marketing.
+                    </li>
+                  </ul>
+                  <a href="" class="btn btn-primary text-white"
+                    >Free Download</a
+                  >
+                  <button class="btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mb-4"> &copy; Ali Hamza
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
